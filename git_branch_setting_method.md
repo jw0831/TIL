@@ -14,7 +14,7 @@
 
 - 저와 같은 경우는 zsh 입니다. 그리고 아직 *branch* 이름이 보이지 않습니다.
 
-  ![zsh](/Users/jinwon-kim/Desktop/3.png)
+  ![zsh](https://user-images.githubusercontent.com/46684150/93518702-2754b800-f968-11ea-87c7-248997a55e0a.png)
 
 ## `$` bash 일 경우 설정 방법
 
@@ -53,7 +53,7 @@
    #RPROMPT=\$vcs_info_msg_0_ #오른쪽에 브랜치 보여주는 옵션
    ```
 
-   ![zshrc](https://drive.google.com/file/d/137eMkr-uotjVFHGvs0QazUIcPMMPOACM/view?usp=sharing)
+   ![zshrc](https://user-images.githubusercontent.com/46684150/93518687-23289a80-f968-11ea-8f3b-60fa6a96bf11.png)
 
 5. 입력후 저장을 해줍니다.
 
@@ -66,7 +66,7 @@
 7. 축하드립니다~ 성공하셨을 경우 다음과 같이 보이게 됩니다. 
 (우측에 보이는 설정을 통하여, 현재 마스터 브랜치에서 작업 하는것을 알 수 있습니다.)
    
-   ![branch](/Users/jinwon-kim/Desktop/2.png)
+   ![branch](https://user-images.githubusercontent.com/46684150/93518696-26238b00-f968-11ea-8aa0-8852feca43fa.png)
 
 ### Reference
 
