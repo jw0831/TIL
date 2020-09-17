@@ -88,7 +88,7 @@
   $ git config --global user.email "jinwon0831kim@gmail.com"
   ```
 
-### ## 3. `README.md` 
+##  3. `README.md` 
 
 > 원격(remote) 저장소(repository)에 대한 정보를 기록하는 마크다운 문서. 일반적으로 해당 프로젝트를 사용하기 위한 방법 등을 기재한다.
 
