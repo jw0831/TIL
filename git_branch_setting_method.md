@@ -53,7 +53,7 @@
    #RPROMPT=\$vcs_info_msg_0_ #오른쪽에 브랜치 보여주는 옵션
    ```
 
-   ![zshrc](/Users/jinwon-kim/Desktop/1.png)
+   ![zshrc](https://drive.google.com/file/d/137eMkr-uotjVFHGvs0QazUIcPMMPOACM/view?usp=sharing)
 
 5. 입력후 저장을 해줍니다.
 
