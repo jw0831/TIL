@@ -18,7 +18,7 @@
 
 ## `$` bash 일 경우 설정 방법
 
-  [bash 설정 방법 블로그](https://uroa.tistory.com/62)
+- [bash 설정 방법 블로그](https://uroa.tistory.com/62)
 
 
 
