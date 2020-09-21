@@ -4,7 +4,7 @@
 > 2. 미리미리 커밋하여 daily commit 을 완성한다.
 > 3. 천리길 한걸음부터! 한 단어라도 커밋하자.
 
-## 1. TIL?
+## So..., what is TIL?
 
 > - TIL은 **T**oday **I** **L**earned의 줄임말로 개발자 사이에서 매일 자신이 학습한 내용을 **commit(기록)** 하는 것
 > - github, bitbucket, gitlab과 같은 원격 저장소에서 제공하는 1 commit - 1 grass의 흥미 요소 제공
