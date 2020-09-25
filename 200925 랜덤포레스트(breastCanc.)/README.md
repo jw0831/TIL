@@ -222,7 +222,7 @@ encoder.inverse_transform(labels) #원 데이터
 encoder.classes_ #종류
 ```
 
-
+> 하는 이유: 숫자나 문자가 서로 더해지거나 수식같은 관계가 전혀 없을경우
 
 # 원핫 인코딩
 
