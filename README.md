@@ -29,3 +29,5 @@
 
 - Multivariable calculus 도 참고하기
 
+[우아한형제들: 우린 Git-flow를 사용하고 있어요](https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
+
