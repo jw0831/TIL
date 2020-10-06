@@ -4,7 +4,7 @@
 
 ### ggplot2::mpg 에서 제공하는 연습용 데이터 활용
 
-### dplyr -> pipeline -> "%>%" 활용
+### dplyr -> pipe -> "%>%" 활용
 
 ```R
 # mpg 데이터를 이용해 분석 문제를 해결해 보세요.
@@ -119,4 +119,6 @@ mpg %>% group_by(manufacturer) %>% filter(class=="compact") %>% summarise(compac
 arrange(summarise(filter(mpg, class=="compact") %>% group_by(manufacturer), compact_n = n()), desc(compact_n))
 
 ```
+
+[참고할만한 사이트](https://seananderson.ca/2014/09/13/dplyr-intro/)
 
