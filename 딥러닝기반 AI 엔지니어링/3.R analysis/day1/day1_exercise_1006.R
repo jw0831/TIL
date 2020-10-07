@@ -51,11 +51,7 @@ head(cc)
 #• Q5. 자동차 종류에 따라 도시 연비가 다른지 알아보려고 합니다. 
 #앞에서 추출한 데이터를 이용해서 class(자동차 종류)가 "suv"인 자동차와 "compact"인 자동차 중 
 #어떤 자동차의 cty(도시 연비)가 더 높은지 알아보세요.
-cc %>% 
-  group_by(class) %>% 
-  summarize(
-    mean(cty)
-  )
+cc %>% filter(class == "compact" | class=="suv") %>% group_by(class) %>% summarize(mean(cty))
 # suv=13.5
 # compact=20.1 
 # compact의 연비가 더 높은것을 확인
@@ -63,8 +59,10 @@ cc %>%
 #• Q6. "audi"에서 생산한 자동차 중에 어떤 자동차 모델의 hwy(고속도로 연비)가 높은지 알아보려고 합니다. 
 #"audi"에서 생산한 자동차 중 hwy가 1~5위에 해당하는 자동차의 데이터를 출력하세요.
 audi = mpg %>% filter(manufacturer %in% c("audi"))
-data=audi %>% arrange(hwy)
+data=audi %>% arrange(desc(hwy))
 data[0:5,]
+##### simply #####
+arrange(filter(mpg, manufacturer %in% c("audi")), desc(hwy))[0:5,]
 ############################################################################################################################################################
 # mpg 데이터는 연비를 나타내는 변수가 hwy(고속도로 연비), cty(도시 연비) 두 종류로 분리되어 있습니다. 
 # 두 변수를 각각 활용하는 대신 하나의 통합 연비 변수를 만들어 분석하려고 합니다.
@@ -83,8 +81,17 @@ top3_mean_mpg=mpg_new %>% group_by(model) %>% arrange(desc(mean_mpg))
 top3_mean_mpg[0:3,]
 ############################################################################################################################################################
 # • Q10. 회사별로 "suv" 자동차의 도시 및 고속도로 통합 연비 평균을 구해 내림차순으로 정렬하고, 1~5위까지 출력하기
-suv_mpg_top5=mpg_new %>% filter(class=="suv") %>% arrange(desc(mean_mpg))
-suv_mpg_top5[0:5,]
+arrange(mpg_new %>% group_by(manufacturer) %>% filter(class=="suv") %>% 
+          summarise(meantot=mean(mean_mpg)), desc(meantot))[0:5,]
+##### 정답 #####
+mpg %>% 
+  group_by(manufacturer) %>%
+  filter(class=="suv") %>% 
+  mutate(tot=(cty+hwy)/2) %>% 
+  summarise(meantot=mean(tot)) %>% 
+  arrange(desc(meantot)) %>% 
+  head(5)
+# 통합연비 평균이 tot이고 거기에서 각 회사별 평균 통합연비란 말씀
 ############################################################################################################################################################
 # • Q11. mpg 데이터의 class는 "suv", "compact" 등 자동차를 특징에 따라 일곱 종류로 분류한 변수입니다. 
 # 어떤 차종의 연비가 높은지 비교해보려고 합니다. class별 cty 평균을 구해보세요.
@@ -99,6 +106,8 @@ mpg %>% group_by(class) %>% summarise(mean(cty)) %>% arrange(desc(`mean(cty)`))
 # hwy 평균이 가장 높은 회사 세 곳을 출력하세요. 
 ls=mpg %>% group_by(manufacturer) %>% summarise(mean(hwy)) %>% arrange(desc(`mean(hwy)`))
 ls[0:3,]
+##### simply #####
+arrange(mpg %>% group_by(manufacturer) %>% summarise(mean(hwy)), desc(`mean(hwy)`))[0:3,]
 ############################################################################################################################################################
 # • Q14. 어떤 회사에서 "compact"(경차) 차종을 가장 많이 생산하는지 알아보려고 합니다. 
 # 각 회사별 "compact" 차종 수를 내림차순으로 정렬해 출력하세요.
