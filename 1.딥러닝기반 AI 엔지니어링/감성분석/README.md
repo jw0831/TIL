@@ -98,7 +98,7 @@
 
 감성분류를 시작하기 전에, **텍스트를 연산 가능한 데이터로 변환** :
 
-![감성분류](형태소분석.assets/emotion_analysis_steps.png)
+![감성분류](README.assets/emotion_analysis_steps.png)
 
 tf_idf 방법: <**enhanced method** compared above method>
 
@@ -108,7 +108,7 @@ tf_idf 방법: <**enhanced method** compared above method>
   - 그래서 tfidf를 통해서 각 문장에서 각 단어가 얼마나 중요한 단어인지, 전체 데이터를 기반으로 계산해내는 작업
   - tfidf가 항상 더 좋은것은 아니지만 감성분석에서는 tfidf 또는 더 나은 방법을 사용한다.
 
-<img src="형태소분석.assets/tf_idf.png" alt="tfidf_method" style="zoom:30%;" />
+<img src="README.assets/tf_idf.png" alt="tfidf_method" style="zoom:30%;" />
 
 
 
