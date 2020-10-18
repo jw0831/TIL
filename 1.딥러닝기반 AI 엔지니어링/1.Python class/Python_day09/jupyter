@@ -1,0 +1,57 @@
+jupyter notebook
+anaconda = python + python packages
+
+pip install jupyter
+
+
+https://pypi.org/   #pip 하게되면 주로 여기서 받게됨 /검색창에 jupyter 검색하면 나오는것을 확인 가능
+
+
+mySQL community server 8.0.21
+downloads.mysql.com/archives/community/
+
+설치할때/기초지식:
+DBMS:
+Client 는 관리Tool
+
+Server 는 엔진(복구,저장,Transection)
+    -databases
+    -tables
+    -rows..
+
+설치할때: Custom
+application: MySQL Workbench
+MySQL Server 8.0 
+connector/Python (3.7) 8.0.17
+
+High Availability
+    - Standalone.. 이걸 선택
+    - InnoDB Cluster
+
+Authentication Method
+    -Use Legacy
+
+Accounts and Roles
+    Root Account Password
+    password : 1234 
+
+MySQL User Account  
+    user name : Test
+    Host: All..
+    Role DB admin
+password : 1234
+
+After done:
+start MySQL Workbench
+
+CREATE database company
+
+설치후 :
+cd C:\test_db-master
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -p < employees.sql
+
+pip install mysql-connector-python
+
+노마드 코더 책
+https://ko-kr.facebook.com/pg/nomadcoders/posts/?ref=page_internal
+http://www.yes24.com/campaign/01_book/dirPresent/dirPresent.aspx?EventNo=183179&CategoryNumber=001
