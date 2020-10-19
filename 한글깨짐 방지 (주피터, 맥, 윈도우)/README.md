@@ -54,3 +54,10 @@ plt.rc('axes', unicode_minus=False) # 마이너스 폰트 설정
 %config InlineBackend.figure_format = 'retina'
 ```
 
+## folium 한글깨짐 (pop-up)
+
+```python
+#### folium pop-up 한글 깨짐발생 할경우 설치!
+pip install git+https://github.com/python-visualization/branca.git@master
+```
+
