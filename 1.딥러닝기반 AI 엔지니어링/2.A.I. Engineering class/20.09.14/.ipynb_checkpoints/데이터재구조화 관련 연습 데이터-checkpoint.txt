@@ -1,0 +1,27 @@
+data = DataFrame({'cust_id': ['c1', 'c1', 'c1', 'c2', 'c2', 'c2', 'c3', 'c3', 'c3'],
+   'prod_cd': ['p1', 'p2', 'p3', 'p1', 'p2', 'p3', 'p1', 'p2', 'p3'],
+   'grade' : ['A', 'A', 'A', 'A', 'A', 'A', 'B', 'B', 'B'],
+   'pch_amt': [30, 10, 0, 40, 15, 30, 0, 0, 10]})
+
+
+data = DataFrame({'cust_ID' : ['C_001', 'C_001', 'C_002', 'C_002'],
+   'prd_CD' : ['P_001', 'P_002', 'P_001', 'P_002'],
+   'pch_cnt' : [1, 2, 3, 4],
+   'pch_amt' : [100, 200, 300, 400]})
+
+data_wide = pd.DataFrame({"C1prd1" : {0 : "a", 1 : "b", 2 : "c"},
+   "C1prd2" : {0 : "d", 1 : "e", 2 : "f"},
+   "C2prd1" : {0 : 2.5, 1 : 1.2, 2 : .7},
+   "C2prd2" : {0 : 3.2, 1 : 1.3, 2 : .1},
+   "value" : dict(zip(range(3), np.random.randn(3)))
+   })
+
+data = DataFrame({'id': ['id1', 'id1', 'id1', 'id2', 'id2', 'id3'],
+   'fac_1': ['a', 'a', 'a', 'b', 'b', 'b'],
+   'fac_2': ['d', 'd', 'd', 'c', 'c', 'd']})
+
+pd.DataFrame({'sequence': [1, 3, 2],
+   'name': ['park', 'lee', 'choi'],
+   'age': [30, 20, 40]})
+
+
