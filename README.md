@@ -31,3 +31,5 @@
 
 [우아한형제들: 우린 Git-flow를 사용하고 있어요](https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
 
+[자연어 처리는 이 책을 공부하자 (ebook📘)](https://wikidocs.net/book/2155)
+
