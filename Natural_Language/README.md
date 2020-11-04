@@ -8,41 +8,55 @@
 
 - 자연어 처리의 순서와 깊은 이해를위해 작성하게 되었습니다. 
 
-[(필독) 자연어 처리 기초정리](http://hero4earth.com/blog/learning/2018/01/17/NLP_Basics_01/)
+## 추천 사이트:
 
-- [(필독)자연어 블로그](https://ratsgo.github.io/blog/categories/)
-- [딥러닝 기반 자연어처리 기법의 최근 연구 동향](https://ratsgo.github.io/natural%20language%20processing/2017/08/16/deepNLP/)
-- [NLP의 기본 절차와 Lexical Analysis](https://ratsgo.github.io/natural%20language%20processing/2017/03/22/lexicon/)
-
-[(필독) NLTK(natural language toolkit)와 WordNet으로 자연어 처리하기 맛보기](https://rfriend.tistory.com/546)
-
-- WordNet은 방대한 영어 어휘와, 유의어 **데이터베이스**다.
-
-[데이터 사이언스 스쿨: NLTK 자연어 처리 패키지](https://datascienceschool.net/03%20machine%20learning/03.01.01%20NLTK%20자연어%20처리%20패키지.html)
-
-- 이거 보고 전처리 및 워드클라우드 생성
-
-[NLTK를 이용한 자연어 처리 블로그](https://happygrammer.github.io/nlp/nltk/)
-
-[인공지능 개발자 모임](http://aidev.co.kr/nlp/7860)
-
-- [NLTK 개발자들이 직접 쓴 자연어 처리 책의 공개 버전: Natural Language Processing with Python](http://www.nltk.org/book/)
-
-[문서에서 핵심 단어를 찾는 TF-IDF 알고리즘](http://aidev.co.kr/2209)
-
-[파이썬 형태소 분석으로 워드클라우드 그리기](https://thinkwarelab.wordpress.com/2016/08/30/파이썬-형태소-분석으로-워드클라우드-그리기/)
-
-[한국어 분석을 위한 pure python code](https://github.com/lovit/soynlp?fbclid=IwAR1eBxqn2MhEG2urLqQqx3j0crSr4TUIiT_SrQozGzsBoWIrOA5jkdJ-xVw)
-
-- 한국어 분석을 위한 pure python code 입니다. 학습데이터를 이용하지 않으면서 데이터에 존재하는 단어를 찾거나, 문장을 단어열로 분해, 혹은 품사 판별을 할 수 있는 비지도학습 접근법을 지향합니다.
-- 처리과정 살펴보기
-
-[자연어 언어모델 'BERT' 1강](https://www.youtube.com/watch?v=qlxrXX5uBoU&feature=emb_title)
-
-선생님 추천 site:
-
-- [soynlp](https://github.com/lovit/soynlp)
-  - 한국어
+>[(필독) 자연어 처리 기초정리](http://hero4earth.com/blog/learning/2018/01/17/NLP_Basics_01/)
+>
+>- [(필독)자연어 블로그](https://ratsgo.github.io/blog/categories/)
+>- [딥러닝 기반 자연어처리 기법의 최근 연구 동향](https://ratsgo.github.io/natural%20language%20processing/2017/08/16/deepNLP/)
+>- [NLP의 기본 절차와 Lexical Analysis](https://ratsgo.github.io/natural%20language%20processing/2017/03/22/lexicon/)
+>
+>[(필독) NLTK(natural language toolkit)와 WordNet으로 자연어 처리하기 맛보기](https://rfriend.tistory.com/546)
+>
+>- WordNet은 방대한 영어 어휘와, 유의어 **데이터베이스**다.
+>
+>[데이터 사이언스 스쿨: NLTK 자연어 처리 패키지](https://datascienceschool.net/03%20machine%20learning/03.01.01%20NLTK%20자연어%20처리%20패키지.html)
+>
+>- 이거 보고 전처리 및 워드클라우드 생성
+>
+>[NLTK를 이용한 자연어 처리 블로그](https://happygrammer.github.io/nlp/nltk/)
+>
+>[인공지능 개발자 모임](http://aidev.co.kr/nlp/7860)
+>
+>- [NLTK 개발자들이 직접 쓴 자연어 처리 책의 공개 버전: Natural Language Processing with Python](http://www.nltk.org/book/)
+>
+>[문서에서 핵심 단어를 찾는 TF-IDF 알고리즘](http://aidev.co.kr/2209)
+>
+>[파이썬 형태소 분석으로 워드클라우드 그리기](https://thinkwarelab.wordpress.com/2016/08/30/파이썬-형태소-분석으로-워드클라우드-그리기/)
+>
+>[한국어 분석을 위한 pure python code](https://github.com/lovit/soynlp?fbclid=IwAR1eBxqn2MhEG2urLqQqx3j0crSr4TUIiT_SrQozGzsBoWIrOA5jkdJ-xVw)
+>
+>- 한국어 분석을 위한 pure python code 입니다. 학습데이터를 이용하지 않으면서 데이터에 존재하는 단어를 찾거나, 문장을 단어열로 분해, 혹은 품사 판별을 할 수 있는 비지도학습 접근법을 지향합니다.
+>- 처리과정 살펴보기
+>
+>
+>
+>[자연어 언어모델 'BERT' 1강](https://www.youtube.com/watch?v=qlxrXX5uBoU&feature=emb_title)
+>
+>선생님 추천 site:
+>
+>- [soynlp](https://github.com/lovit/soynlp)
+>  - 한국어
+>
+>감성분석
+>
+>[(Kaggle) Airline Sentiment Analysis](https://www.kaggle.com/welkin10/airline-sentiment-analysis)
+>
+>[Sentiment Analysis with Text Mining](https://towardsdatascience.com/sentiment-analysis-with-text-mining-13dd2b33de27)
+>
+>문서덩어리 (document clusters)
+>
+>- [위키피디아/wikipedia](https://dumps.wikimedia.org/kowiki/latest/)
 
 # [자연어 관련 용어](http://hero4earth.com/blog/learning/2018/01/17/NLP_Basics_01/)
 
@@ -54,6 +68,8 @@
 - Stopword(불용어): I, my, me, 조사, 접미사와 같이 자주 나타나지만 실제 의미에 큰 기여를 하지 못하는 단어들
 - Stemming(어간 추출): 어간만 추출하는 것을 의미(running, runs, run -> run)
 - Lemmatization(음소표기법): 앞뒤 문맥을 보고 단어를 식별하는 것
+- TDM : Term Document Matrix
+  - ![TDM](https://qph.fs.quoracdn.net/main-qimg-27639a9e2f88baab88a2c575a1de2005)
 
 # 자연어 처리 단계
 
@@ -152,7 +168,36 @@ word embedding의 방법론에 따른 특징
 
 # word2vec
 
-[word2vec 으로 문장 분류하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/08/word2vec/)
+> [wevi: word embedding visual inspector 통해 직접 함수api를 설정, 시각화 해보자!](https://ronxin.github.io/wevi/)
+>
+> [응용사례](https://word2vec.kr)
+>
+> [word2vec 으로 문장 분류하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/08/word2vec/)
+>
+> [nlp_github](https://lovit.github.io/category/#/nlp)
+>
+> - [Word / Document embedding (Word2Vec / Doc2Vec)](https://lovit.github.io/nlp/representation/2018/03/26/word_doc_embedding/)
+>
+> - [Document vectors 와 word vectors 를 함께 시각화 하기 (Doc2vec 공간의 이해)](https://lovit.github.io/nlp/2019/06/18/joint_visualization_of_worddoc/)
+> - [Joint visualization for News and words](https://github.com/lovit/joint_visualization_of_words_and_docs/)
+>
+> [skip-gram](https://www.sallys.space/blog/2018/04/05/Word2vec,-skip-gram-model/)
+>
+> - 구글 연구팀은 논문에 두개의 모델을 제시했습니다. CBoW와 Skip-gram으로 CBow는 주변의 단어를 이용해 하나의 단어는 찾아내는 방법이고 Skip-gram은 하나의 단어에서 여러 단어를 예측하는 방법입니다. 결과적으로는 좋은 성능을 보이는 Skip-gram이 대세라고 합니다. 논문의 성능표를 보면 의미 분석에서는 다른 모델보다 월등히 좋은 성능을 보입니다.
+>
+> [(필독) Word2Vec의 학습 방식 (feat.skip-gram)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/30/word2vec/)
+>
+> - [skip-gram모델&튜닝 기법](https://reniew.github.io/22/)
+>
+> [(필독) Gensim](https://radimrehurek.com/gensim/models/word2vec.html)
+>
+> [Visualizing Word Vectors with t-SNE](https://www.kaggle.com/jeffd23/visualizing-word-vectors-with-t-sne)
+>
+> 
+
+
+
+
 
 
 
@@ -166,7 +211,27 @@ word embedding의 방법론에 따른 특징
 
 결국, 어떤 방식으로 Word Embedding을 하느냐가 가장 중요한 관건이다. 벡터화된 데이터가 자연어의 어떤 의미를 담고 있는지가 결정되기 때문이다. 이후 학습 단계에서 CNN, RNN 등의 기법을 활용하여 성능을 높이게 된다.
 
-# LDA 알아보기
+
+
+
+
+# 모델링
+
+[Word2Vec 과 Logistic Regression 을 이용한 (Semi-supervised) Named Entity Recognition](https://lovit.github.io/nlp/2019/02/16/logistic_w2v_ner/)
+
+
+
+[정형데이터 대회는 AutoML에 때려박고(?) 시작하자!](https://dacon.io/codeshare/1701)
+
+
+
+# 토픽 모델링
+
+## LDA 알아보기
+
+[딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155)
+
+- [자연어처리(NLP) 8일차 (LDA)](https://medium.com/@omicro03/자연어처리-nlp-8일차-lda-f571b4da9d04)
 
 
 
@@ -176,3 +241,4 @@ word embedding의 방법론에 따른 특징
 
 - 트럼프/바이든 트윗에 적용해서 감성이 어떤지 알아보기 (그의 정신상태 심리상태를 분석할수 있어보인다.)
 - 사람들의 감성 to Trump/Biden
+
