@@ -3,6 +3,8 @@
 > 1. 어뷰징하지 않는다.
 > 2. 미리미리 커밋하여 daily commit 을 완성한다.
 > 3. 천리길 한걸음부터! 한 단어라도 커밋하자.
+>
+> [![GitHub license](https://img.shields.io/github/license/jw0831/TIL)](https://github.com/jw0831/TIL/blob/master/LICENSE)
 
 ## So..., what is TIL?
 
@@ -32,4 +34,10 @@
 [우아한형제들: 우린 Git-flow를 사용하고 있어요](https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
 
 [자연어 처리는 이 책을 공부하자 (ebook📘)](https://wikidocs.net/book/2155)
+
+[LICENSE 추가하는 방법 🔐](https://lottogame.tistory.com/2391)
+
+[Badge 추가하는 방법](https://shields.io)
+
+
 
