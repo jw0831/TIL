@@ -41,3 +41,8 @@
 
 
 
+.gitignore 파일을 추가하여 .DS_Store와 같은 원치않는 파일들을 정규표현식처럼 마스킹 할 수 있다.
+
+- .git이 위치한 경로에서 명령어: touch .gitignore
+- open .gitignore를 해서, 원치않는 "파일명" 또는 "경로/" 등을 추가하자!
+
