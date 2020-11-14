@@ -68,6 +68,13 @@
    
    ![branch](https://user-images.githubusercontent.com/46684150/93518696-26238b00-f968-11ea-8aa0-8852feca43fa.png)
 
+
+
+#### .gitignore 파일을 추가하여 .DS_Store와 같은 원치않는 파일들을 정규표현식처럼 마스킹 할 수 있다.
+
+- .git이 위치한 경로에서 명령어: touch .gitignore
+- open .gitignore를 해서, 원치않는 "파일명" 또는 "경로/" 등을 추가하자!
+
 ### Reference
 
 [Add Git branch information to your ZSH prompt](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
