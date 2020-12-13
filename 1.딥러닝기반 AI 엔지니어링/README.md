@@ -5,7 +5,7 @@
 ## Machine Learning
 
 - 나이브 베이즈:
-- 
+
 
 ## Deep Learning
 
