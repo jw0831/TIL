@@ -234,9 +234,15 @@ class Solution:
         """
 ```
 
+
+
+[1295.  Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/submissions/)
+
+[1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
+
+[1304. Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
+
 (파이썬 알고리즘 인터뷰) pg.180  부터
-
-
 
 ### 큐
 
