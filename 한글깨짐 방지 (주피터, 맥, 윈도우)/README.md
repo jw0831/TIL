@@ -61,3 +61,21 @@ plt.rc('axes', unicode_minus=False) # 마이너스 폰트 설정
 pip install git+https://github.com/python-visualization/branca.git@master
 ```
 
+### matplotlib로 한글 검색해서 표시하는 방법
+
+```python
+import matplotlib.font_manager as font_manager
+font_list = font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
+font_list[:200]
+```
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.rcParams['font.family'] = 'NanumBarunGothic'
+plt.hist(np.random.normal(50, 10, 1000))
+plt.title('한글표시')
+plt.show()
+```
+
