@@ -161,3 +161,53 @@
 출처: [iTherapist](https://itherapist.tistory.com/176)
 
 [원문 다운링크](https://itherapist.tistory.com/attachment/cfile10.uf@254C0E3C54F6AA102DC86D.pdf)
+
+
+
+### How to Read a Research Paper
+
+> From Siraj Raval
+>
+> 논문 사이트: http://www.arxiv-sanity.com
+>
+> - 다른 사람들의 코맨트를 확인할 수 있다.
+
+Take patience and coffee (a lot of coffee)
+
+How we supppose to know what to read
+
+- Have a goal : To read towards that goal
+
+3 - pass approach
+
+-  I'll go back to see what other people are saying about this paper and compare my initial observations to theirs basically the aim of this first pass is to ensure that it's worth my time to continue analyzing
+
+  this paper live short and there are too many things to read if it does pique my interest then I'll reread it a second time on the second pass I'll read it again this time more critically and I'll also take notes as I go I'll actually read all the English text and I'll try to get a high level understanding of the math that's happening in the paper so it's a minimax game that looks to optimize a Nash equilibrium okay I kind of get that eventually the generator Network creates fake samples that are indistinguishable from the real thing so the discriminator is powerless cool I'll read the figure descriptions any plots and graphs that are available and try to understand the algorithm at a high level a lot of times the author will break down an equation by factoring it out I avoid trying to analyze this on
+
+- 첫번째로 스윽 훑어 본다. 제목이 적합하고 흥미롭다면, YO~ 읽자!
+
+  - 초록 읽기 (마음에든다면)
+  - 서론 읽기: 부문 및 하위부문등을 읽지만 이 단계에서 수학은 무시한다.
+  - 결론 읽기
+  - 결론 읽은후에 스윽 참조를 본다. 만약 내가 읽었던 논문이 있다면 수학은 대충 비슷할것이다 라는생각 정도
+    - First pass 목표: 그냥 저자의 목적과 논문이 공헌하는바를 이해하고 어떤 문제를 해결하려 하는지를 내가 흥미로워 하는지 이해하는정도.
+    - 다른 사람들이 이 논문에 대해 무엇을 얘기하는지 확인해보고 나의 첫 관찰을 다른 사람과 비교해보면서, 기본적으로 이 논문을 읽을 가치가 있는 것인지 판단합니다. 인생은 짧고 읽을것은 많기에..
+
+- 관심을 불러 일으키는 경우 읽기 위해 두 번째 패스에서 두 번째로 다시 읽을 것입니다. 
+
+  - 이번에는 더 비판적으로 다시 읽습니다.
+  - 이동하면서 메모도 합니다.
+  - 실제로 모든 영어 텍스트를 읽고, 논문에서 일어나는 수학에 대해 높은 수준의 이해를 얻으려고 노력합니다.
+  - 사용 가능한 모든 플롯과 그래프의 그림 설명을 읽고 알고리즘을 높은 수준에서 이해하려고 노력합니다.
+  - 결과를 평가하기 위해 시도 할 실험을 읽었습니다. 
+    - github에서 사용할 수있는 저장소와 관련된 코드를 확인하고. 코드를 다운로드하여 읽기 시작합니다.
+    - 로컬에서 코드를 컴파일하고 실행하여 일반적으로 코드에 추가된 주석이 이해하는 데 도움을 줍니다.
+    - 또한 텍스트 기사 요약 자습서를 설명하는 데 도움이되는 추가 리소스를 웹에서 찾을 것입니다. 이 두 번째 패스 이후에 다른 사람이 온라인에서 수행 한 내용을 분석하여 핵심 포인트 가져옵니다.
+    - 모든 토픽을 이해하는데 가르치는것 만큼 좋은게 없습니다. (저자는 YouTube를 통해 가르침)
+
+- 세번째는 모든 집중을 수학에 한다. 수학의 모든 세부적인 요소를 펜과 종이에 적고 분리해가면서 위키피디아를 통해 이해를 돕고 수학 컨셉의 이해를 완전히 해본다.
+  - 정말로 야심을 느낀다면 하이퍼 매개 변수 설정과 방정식을 사용하여 프로그래밍 방식으로 논문을 복제하려고 노력.
+  - 이 모든 과정을 거친 후 다른 사람들과 토론 할 수있을만큼 자신감을 가질 것.
+  - 핵심은 절대 포기하지 않는 것입니다. 좌절감을 연료로 바꾸면 더 나은 결과를 얻을 수 있습니다.
+  - 그렇다면 이 문서를 이해하게 될 것입니다. 이 주제를 마스터하게 될 것입니다.
+  - 그래도 수학이 이해되지 않는다면 [칸 아카데미](https://ko.khanacademy.org/math/linear-algebra) 에서 무료로~
